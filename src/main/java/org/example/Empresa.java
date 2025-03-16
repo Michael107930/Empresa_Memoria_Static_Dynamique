@@ -9,11 +9,11 @@ public class Empresa {
     public Empresa(){
         this.empleados= new ArrayList<>();
     }
-    public void agregarEmpleado(String nombre,double salario ){
-        Empleado nuevoEmpleado=new Empleado(nombre,salario);
-        git add .
+    public void agregarEmpleado(String  nombre,double  salario){
+        Empleado nuevoEmpleado = new Empleado(nombre,salario);
+        empleados.add(nuevoEmpleado);
+        System.out.println("Ha agregado exitosamente el empleado");
+
 
     }
-
-
 }
